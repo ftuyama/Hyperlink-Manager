@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="file:/C:/Users/Felipe/Documents/NetBeansProjects/Hyperlink/dist/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Hyperlink</title>
+        <vendor>Felipe</vendor>
+        <homepage href=""/>
+        <description>Hyperlink</description>
+        <description kind="short">Hyperlink</description>
+    </information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="Hyperlink.jar" main="true"/>
+    </resources>
+    <application-desc main-class="GUI.GUI">
+    </application-desc>
+</jnlp>
